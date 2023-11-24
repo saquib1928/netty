@@ -721,6 +721,18 @@
     <module>microbench</module>
     <module>bom</module>
   </modules>
+	 <distributionManagement>
+		<repository>
+		  <id>central</id>
+		  <name>a0n5tucjjiuir-artifactory-primary-0-releases</name>
+		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-release</url>
+		</repository>
+		<snapshotRepository>
+		  <id>snapshots</id>
+		  <name>a0n5tucjjiuir-artifactory-primary-0-snapshots</name>
+		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-snapshot</url>
+		</snapshotRepository>
+	  </distributionManagement>
 
   <dependencyManagement>
     <dependencies>
@@ -2125,16 +2137,4 @@
       </plugins>
     </pluginManagement>
   </build>
- <distributionManagement>
-		<repository>
-		  <id>central</id>
-		  <name>a0n5tucjjiuir-artifactory-primary-0-releases</name>
-		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-release</url>
-		</repository>
-		<snapshotRepository>
-		  <id>snapshots</id>
-		  <name>a0n5tucjjiuir-artifactory-primary-0-snapshots</name>
-		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-snapshot</url>
-		</snapshotRepository>
-	  </distributionManagement>
 </project>
